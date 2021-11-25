@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Week9_HW</title>
+    </head>
+        
+    <body>
+        <table border="1" width="1" > 
+            <caption></caption>
+                <thead>
+                    <th colspan="100%">About -- 110208059 </th>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td rowspan="3" colspan="3" >
+                            <img src="https://a.rimg.com.tw/s2/c/28/56/21801550592086_543_m.jpg" alt="personal photo" width="75" height="75">
+                             personal photo
+                        </td>
+                        <td colspan="100%">
+                            Name:<input name="name" type="text" size="20" maxlength="30">
+                             <form>Gender:
+                                <input type="radio" name="Gender" value="gender" checked>Male
+                                <input type="radio" name="Gender" value="gender" checked>Female
+                             <input type="radio" name="Gender" value="gender" checked>Other
+                            </form>   
+                        <td>    
+                        <tr>
+                        <td colspan="1">Country:                                
+                            <select id="country" name="country">
+                                <option value="Taipei">Taipei</option>
+                                <option value="Tainan">Tainan</option>
+                                <option value="Taichung">Taichung</option>
+                                <option value="Taoyuan">Taoyuan</option>
+                            </select>
+                           <td colspan="2" >Birthday:<input type="date" name="birthday">  
+                        </td>
+                        </tr>
+                        
+                          <td colspan="100%">Email:
+                            <input type="email" name="email" id="email">
+
+                         </td>                     
+                    </tr>
+                    <tr>
+                        <td>Hobby</td>
+                        <td colspan="3">
+                        <form action="/action_page.php" method="get">
+                        <input type="checkbox" name="hobby1" value="Swimmimg">
+                        <label for="hobby1">   Swimmig </label>
+                        <input type="checkbox" name="hobby2" value=" “Volleyball”>
+                        <label for="hobby2">   Volleyball </label>
+                        <input type="checkbox" name="hobby3" value="Movie">
+                        <label for="hobby3">   Moive </label>
+                        <input type="checkbox" name="hobby4" value="Game">
+                        <label for="hobby4">   Game </label>
+                        <input type="checkbox" name="hobby5" value="sleep">
+                        <label for="hobby5">   sleep </label>
+                         </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Skills</td>
+                        <td colspan="100%">
+                        <form action="/action_page.php" method="get">
+                        <input type="checkbox" name="skill1" value="Java">
+                        <label for="skill1">  Java </label>
+                        <input type="checkbox" name="skill2" value=" “HTML”>
+                        <label for="sikll2">   HTML </label>
+                        <input type="checkbox" name="skill3" value="Python">
+                        <label for="sikll3">   Python </label>
+                        <input type="checkbox" name="skill4" value="Microsoft Office">
+                        <label for="skill4">   Microsoft Office</label>
+                        <input type="checkbox" name="skill5" value="premiere">
+                        <label for="skill5">   premiere </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Say something</td>
+                            <td colspan="50%">
+                                <textarea rows="1" cols="60">Say something here.       
+                                </textarea>
+                            </td>
+                    </tr>
+
+                    <tr>        
+                        <td colspan="100%">
+                            <input type="submit" value="提交" />
+                            <input type="reset" value="重設" />
+                        </td>
+                    </tr>
+                    
+            </table>
+      </body>
+</html>
